@@ -1,8 +1,8 @@
-/** Command-line tool to generate Markov text. */
+/** Command-line tool to generate bigram Markov text. */
 
 
 const fs = require("fs");
-const markov = require("./markov");
+const markov = require("./bigram");
 const axios = require("axios");
 const process = require("process");
 
